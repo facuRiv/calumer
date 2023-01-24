@@ -13,6 +13,8 @@
     <!--- CDN BOOTSTRAP CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--CDN ANIMATE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!---MI CSS-->
     <link rel="stylesheet" href="../css/style.css">
@@ -21,50 +23,54 @@
 <body>
     <header>
         <section>
+            <div>
+                <a href="./index.html"></a>
+                <!--BOOTSTRAP NAVBAR-->
+                <nav id="grad" class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/loguito.jpg"
+                                alt="logo de la empresa"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page"
+                                        href="../pages/compañia.html">Compañia</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" aria-current="page" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false" href="../pages/productos.html">
+                                        ¿Qué buscas?
+                                    </a>
 
-            <a href="./index.html"></a>
-            <!--BOOTSTRAP NAVBAR-->
-            <nav id="grad" class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/loguito.jpg"
-                            alt="logo de la empresa"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page"
-                                    href="../pages/compañia.html">Compañia</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" aria-current="page" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false" href="../pages/productos.html">
-                                    ¿Qué buscas?
-                                </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="../pages/productos.html">Productos</a></li>
+                                        <li><a class="dropdown-item" href="../pages/ofertas.html">Ofertas</a></li>
 
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="../pages/productos.html">Productos</a></li>
-                                    <li><a class="dropdown-item" href="../pages/ofertas.html">Ofertas</a></li>
+                                    </ul>
+                                </li>
 
-                                </ul>
-                            </li>
-
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Buscar productos"
-                                aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
-                        </form>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar productos"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
         </section>
+
+
+        </div>
+
 
     </header>
 
@@ -84,7 +90,7 @@
         <!--PRODUCTOS BOOTSTRAP-->
         <section id="productos">
             <article class="card mb-3">
-                <img src="../img/Sin título.jpg" class="card-img-top" alt="...">
+                <img src="../img/Sin título.jpg" class="card-img-top" alt="Producto">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Pallet entero de 60 cajas de 32 unidades cada una</p>
@@ -99,12 +105,12 @@
                         <p class="card-text">Pallet entero de 60 cajas de 32 unidades cada una</p>
                         <p class="card-text"><small class="text-muted">Precio actualizado: 1/01/23</small></p>
                     </div>
-                    <img src="../img/Sin título.jpg" class="card-img-bottom" alt="...">
+                    <img src="../img/Sin título.jpg" class="card-img-bottom" alt="Producto">
                     <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </article>
 
             <article class="card mb-3">
-                <img src="../img/Sin título.jpg" class="card-img-top" alt="...">
+                <img src="../img/Sin título.jpg" class="card-img-top" alt="Producto">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Pallet entero de 60 cajas de 32 unidades cada una</p>
@@ -119,11 +125,11 @@
                         <p class="card-text">Pallet entero de 60 cajas de 32 unidades cada una</p>
                         <p class="card-text"><small class="text-muted">Precio actualizado: 1/01/23</small></p>
                     </div>
-                    <img src="../img/Sin título.jpg" class="card-img-bottom" alt="...">
+                    <img src="../img/Sin título.jpg" class="card-img-bottom" alt="Producto">
                     <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </article>
             <article class="card mb-3">
-                <img src="../img/Sin título.jpg" class="card-img-top" alt="...">
+                <img src="../img/Sin título.jpg" class="card-img-top" alt="Producto">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Pallet entero de 60 cajas de 32 unidades cada una</p>
@@ -138,11 +144,11 @@
                         <p class="card-text">Pallet entero de 60 cajas de 32 unidades cada una</p>
                         <p class="card-text"><small class="text-muted">Precio actualizado: 1/01/23</small></p>
                     </div>
-                    <img src="../img/Sin título.jpg" class="card-img-bottom" alt="...">
+                    <img src="../img/Sin título.jpg" class="card-img-bottom" alt="Producto">
                     <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </article>
             <article class="card mb-3">
-                <img src="../img/Sin título.jpg" class="card-img-top" alt="...">
+                <img src="../img/Sin título.jpg" class="card-img-top" alt="Producto">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Pallet entero de 60 cajas de 32 unidades cada una</p>
@@ -157,7 +163,7 @@
                         <p class="card-text">Pallet entero de 60 cajas de 32 unidades cada una</p>
                         <p class="card-text"><small class="text-muted">Precio actualizado: 1/01/23</small></p>
                     </div>
-                    <img src="../img/Sin título.jpg" class="card-img-bottom" alt="...">
+                    <img src="../img/Sin título.jpg" class="card-img-bottom" alt="Producto">
                     <a href="#" id="comprar" class="btn btn-primary">
                         Agregar al carrito
                     </a>
@@ -180,7 +186,7 @@
                 </li>
             </ul>
         </nav>
-        <div class="redes_sociales">
+        <div class="redes_sociales wow animate__animated animate__bounce">
             <i class="fa-brands fa-whatsapp fa-4x"></i>
             <i class="fa-brands fa-instagram fa-4x"></i>
             <i class="fa-brands fa-facebook fa-4x"></i>
@@ -193,6 +199,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+    <!--WOW JS-->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
