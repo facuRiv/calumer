@@ -1,0 +1,15 @@
+.formulario {
+    background-color: map-get($paleta_de_colores $terciary );
+
+    margin: 15px;
+}
+
+.mensaje {
+    background-color: map-get ($paleta_de_colores $generic );
+    margin: 5px;
+}
+
+
+.contacto {
+    @include flex-row-center;
+}

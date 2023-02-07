@@ -1,0 +1,32 @@
+#carouselExample {
+
+    width: $carrusel;
+
+
+}
+    /* GRUPO DE BOTONES PRODUCTOS */
+
+    .btn-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        width: auto;
+    }
+
+    /* ARTICULOS */
+
+    #productos {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        img:hover {
+            transition: transform .4s;
+        
+    
+            transform: scale(1.5);
+        }
+    }

@@ -1,0 +1,10 @@
+footer {
+    @include flex-column-center;
+    background-color: $primary;
+
+}
+
+.pie{
+    @include flex-column-center;
+    color: $secondary;
+}

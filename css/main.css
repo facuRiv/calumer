@@ -1,0 +1,120 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffeb3c;
+}
+
+@media screen and (max-width: 899px) {
+  .navbar-collapse {
+    width: 100vh;
+    height: 100vh;
+  }
+}
+h2 {
+  font-family: fantasy;
+  font-size: 24px;
+  margin-top: 20px;
+  color: #0a5284;
+}
+
+#titulo {
+  font-family: fantasy;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: fantasy;
+  font-size: medium;
+}
+
+.compañia {
+  font-size: medium;
+}
+
+#carouselExample {
+  width: 500px;
+}
+
+/* GRUPO DE BOTONES PRODUCTOS */
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: auto;
+}
+
+/* ARTICULOS */
+#productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#productos img:hover {
+  transition: transform 0.4s;
+  transform: scale(1.5);
+}
+
+.logo {
+  width: 20%;
+  transform: rotate(5deg);
+}
+
+#redondo {
+  border-radius: 10px;
+}
+
+.formulario {
+  background-color: black;
+  margin: 15px;
+}
+
+.mensaje {
+  background-color: white;
+  margin: 5px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* MAPA */
+.ubicacion {
+  height: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffeb3c;
+}
+
+.pie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #0a5284;
+}
+
+body {
+  background-color: #ffeb3c;
+}/*# sourceMappingURL=main.css.map */

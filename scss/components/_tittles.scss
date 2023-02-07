@@ -1,0 +1,22 @@
+h2 {
+    font-family: fantasy;
+    font-size: 24px;
+    margin-top: 20px;
+    color: $secondary;
+}
+#titulo {
+    font-family: fantasy;
+
+@include flex-row-center;
+    animation-iteration-count: infinite;
+}
+.intro {
+
+    @include flex-row-center;
+    font-family: fantasy;
+    font-size: medium
+}
+.compañia {
+    font-size: medium;
+
+}
