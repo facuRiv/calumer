@@ -1,9 +1,16 @@
 .logo {
     width: 20%;
     transform: rotate(5deg);
+    :hover {
+        transition: transform .4s;
+    
+
+        transform: scale(1.5);
+    }
 
 }
 
 #redondo {
     border-radius: $redondo;
+    
 }

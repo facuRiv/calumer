@@ -1,10 +1,9 @@
 footer {
-    @include flex-column-center;
-    background-color: $primary;
-
+    @include flex-row-center;
+    background-color: $primary
 }
 
 .pie{
-    @include flex-column-center;
+    @include flex-row-center;
     color: $secondary;
 }

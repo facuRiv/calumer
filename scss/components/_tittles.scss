@@ -6,6 +6,7 @@ h2 {
 }
 #titulo {
     font-family: fantasy;
+    width: 100%;
 
 @include flex-row-center;
     animation-iteration-count: infinite;
@@ -17,6 +18,11 @@ h2 {
     font-size: medium
 }
 .compañia {
-    font-size: medium;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
 
 }

@@ -13,3 +13,7 @@
 .contacto {
     @include flex-row-center;
 }
+
+.button:hover{
+background-color: $secondary;
+}
